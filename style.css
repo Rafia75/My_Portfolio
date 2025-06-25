@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  font-size: 28px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+#home {
+  border: 2px solid #73AD21;
+  color: #000000;
+  padding: 15px 10px;
+  margin: 20px auto;
+  width: 50%;                    
+  border-radius: 10px;           
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fc;
+  color: #000000;
+}
+header {
+  background: #282c34;
+  color: white;
+  padding: 20px 0;
+}
+#about,#contact {
+  padding: 60px 20px;
+}
+.about-flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.about-content {
+  flex: 1;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #282c34;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background: #20232a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.social-links a {
+  color: #61dafb;
+  margin: 0 10px;
+  text-decoration: none;
+}
